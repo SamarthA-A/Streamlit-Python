@@ -4,11 +4,11 @@ from streamlit_lottie import st_lottie
 import os
   
   
-path = "D:\Streamlit - Python\Animation.json"
+path = "D:\Advance Python Streamlit\project\Animation.json"
 with open(path,"r") as file: 
     url = json.load(file) 
 
-path1 = "D:\Streamlit - Python\Animation1.json"
+path1 = "D:\Advance Python Streamlit\project\Animation1.json"
 with open(path1,"r") as file: 
     url1 = json.load(file) 
 def about_page():
